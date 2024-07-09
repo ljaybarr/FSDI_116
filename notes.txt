@@ -1,0 +1,12 @@
+/* Responsive Design and the Breakpoints
+Good practices: Add at least two media queries, one for tablet (midum screens) and one for phones (small screens).
+Following the Microsoft documentation.
+- Phone or Small screen
+    @media(max-width:640px) {
+        //Your style here
+    }
+- Tablet or Medium screen
+    @media((min-width:641px) and (max-width:1007px)){
+        //Your style here
+    }
+*/

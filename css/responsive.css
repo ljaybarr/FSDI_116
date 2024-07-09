@@ -1,0 +1,24 @@
+/*Small Screen*/
+@media(max-width:640px){
+    /*Style*/
+    html {
+        font-size: 10px;
+    }
+
+    header {
+        flex-direction: column;
+        height: min-content;
+        padding: 2%;
+    }
+
+    .nav-option {
+        flex-direction: column;
+    }
+}
+
+/*Medium Screen*/
+@media((min-width:641px) and (max-width:1007px)){
+    html {
+        font-size: 14px;
+    }
+}
