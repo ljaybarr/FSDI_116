@@ -1,14 +1,14 @@
 header {
     display: flex;
     height: 60px;
+    top: 0px;
+    background-color: var(--surface-color);
 }
-
 
 /* ---LEFT SIDE--- */
 .logo {
     width: 20%;
 }
-
 
 /* ---RIGHT SIDE--- */
 .nav-menu {
@@ -31,4 +31,8 @@ header {
 
 .nav-menu a:hover {
     border-bottom: solid 2px var(--primary-color);
+}
+
+#checkBox, .hamburger-btn {
+    display: none;
 }
