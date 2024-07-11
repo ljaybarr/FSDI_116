@@ -46,3 +46,23 @@
         font-size: 14px;
     }
 }
+
+/*Both*/
+@media((max-width:1007px)){
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-description-container {
+        width: 100%;
+    }
+
+    .about-image-container {
+        width: 100%;
+        margin: 2rem 0px;
+    }
+
+    .about-image-container img {
+        width: 30%;
+    }
+}
